@@ -12,7 +12,7 @@
 
 		<h1>Task Project 😎</h1>
 
-		<form action="/data" method="POST" role="form">
+		<form action="/" method="POST" role="form">
 			<fieldset>
 
 				<legend>Add Task</legend>
@@ -22,19 +22,15 @@
 					<input type="text" name="description" class="form-control" id="" placeholder="Enter task description...">
 				</div> 
 
-				<button type="submit" class="btn btn-primary">Submit</button>
+				<button id="addTaskBtn" type="submit" class="btn btn-primary">Submit</button>
 			</fieldset>
 		</form>
 
 		<ol id="tasks"></ol>
-
-		<form action="" method="" role="form" id="task_form">
-			<p><button type="submit" class="btn btn-primary">Get Tasks</button></p>
-		</form>
-		
-
-
-
+	
+		<div class="actions">
+			<button id="getTasksBtn" type="button" class="btn btn-primary">Get Tasks</button>
+		</div>
 
 	</div>
 
