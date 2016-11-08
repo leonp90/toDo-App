@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Cool Project</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+	<div class="container">
+
+		<h1>Task Project 😎</h1>
+
+		<form action="/data" method="POST" role="form">
+			<fieldset>
+
+				<legend>Add Task</legend>
+
+				<div class="form-group">
+					<label for="">Description</label>
+					<input type="text" name="description" class="form-control" id="" placeholder="Enter task description...">
+				</div> 
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</fieldset>
+		</form>
+
+		<ol id="tasks"></ol>
+
+		<form action="" method="" role="form" id="task_form">
+			<p><button type="submit" class="btn btn-primary">Get Tasks</button></p>
+		</form>
+		
+
+
+
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="/js/main.js"></script>
+</body>
+</html>
